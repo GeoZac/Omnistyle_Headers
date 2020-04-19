@@ -15,30 +15,12 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dirtyunicorns.headers"
-    android:versionCode="1"
-    android:versionName="1.0" >
-
-    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-
-    <uses-sdk
-        android:minSdkVersion="25"
-        android:targetSdkVersion="25" />
+    package="com.omnistyle.headers">
 
     <application
         android:allowBackup="false"
-        android:label="DU Headers"
-        android:icon="@drawable/ic_du_logo" >
-        <activity
-            android:name="com.dirtyunicorns.headers.BrowseHeaderActivity"
-            android:label="@string/browse_header"
-            android:theme="@android:style/Theme.Material.Settings" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        android:label="Omnistyle Extra Headers">
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".staydirty"
             android:label="#StayDirty" >
